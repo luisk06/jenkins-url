@@ -7,7 +7,7 @@ const jenkins = jenkinsapi.init("http://luis:lm642531@34.234.33.175:8080/")
 const express = require('express')
 const app = express()
 
-    // console.log(data)
+const port = process.env.PORT || 3000
 
 app.get(`/:jobName`, function (req, res) {
     let jobName = req.params.jobName
@@ -17,5 +17,5 @@ app.get(`/:jobName`, function (req, res) {
         res.redirect(`http://34.234.33.175:8080/job/${jobName}/${data.id}/cucumber-html-reports/overview-features.html`)
     })
 })
-app.listen(3000)
+app.listen(port)
 
