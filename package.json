@@ -4,7 +4,7 @@
   "description": "jenkins cucumber url integration",
   "main": "index.js",
   "scripts": {
-    "test": "start"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/luisk06/jenkins-url/issues"
   },
-  "homepage": "https://github.com/luisk06/jenkins-url#readme"
+  "homepage": "https://github.com/luisk06/jenkins-url#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jenkins-api": "^0.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }
