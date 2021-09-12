@@ -1,0 +1,25 @@
+{
+  "name": "jenkins-url",
+  "version": "1.0.0",
+  "description": "jenkins cucumber url integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisk06/jenkins-url.git"
+  },
+  "keywords": [
+    "jenkins",
+    "cucumber",
+    "url",
+    "integration"
+  ],
+  "author": "luius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisk06/jenkins-url/issues"
+  },
+  "homepage": "https://github.com/luisk06/jenkins-url#readme"
+}
